@@ -8,7 +8,7 @@ import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 
 @Injectable()
 export class ProductService {
-    productUrl: string = '../../api/products/products.json';
+    productUrl: string = '../../api/products/product.json';
 
     constructor(private _http: HttpClient) {
     }
